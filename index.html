@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+    <link rel="stylesheet" href="style.css"> 
+  
+<body>  
+ <div class="top-bar">
+    <div class="container">
+        <div class="top-bar-inner d-flex align-items-center justify-content-space-between">
+            <!-- Left: contact info -->
+            <div class="top-bar-left d-flex align-items-center">
+                <a href="mailto:support@gmail.com" class="fw-regular align-items-center">
+                    <i class="fa-regular fa-envelope"></i>
+                    support@gmail.com
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                    2972 Westheimer Rd. Santa Ana, Illinois 85486
+                </a>
+            </div>
+            <!-- Right: links + socials -->
+            <div class="top-bar-right d-flex align-items-center">
+                <div class="top-links d-flex align-items-center">
+                    <a href="#">FAQ</a>
+                    <span class="divider">|</span>
+                    <a href="#">Support</a>
+                </div>
+                <div class="top-bar-socials d-flex align-items-center">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<header class="header">
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg custom-nav">
+            <div class="logo d-block">
+                <a class="navbar-brand " href="index.html" >
+                    <img src="img/black-logo.png" alt="logo" loading="lazy">
+                </a>
+            </div>
+
+            <!-- Hamburger -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+        </button>
+          <div class="collapse navbar-collapse  justify-content-center"
+     id="navbarSupportedContent">
+
+                <ul class="navbar-nav ">
+                            <li class="nav-item">
+                <a class="nav-link fw-regular" href="index.html">
+                    Home
+                </a>
+            </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fw-regular dropdown-toggle"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Tours
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-regular" href="ourtrips.html">Our Trips </a></li>
+                            <li><a class="dropdown-item fw-regular" href="#"> Trips details</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fw-regular dropdown-toggle"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Destination
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-regular" href="destination.html">Destination</a></li>
+                            <li><a class="dropdown-item fw-regular" href="#">Destination Details</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">SEO</a></li> -->
+                        </ul>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fw-regular dropdown-toggle"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            pages
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-regular" href="#">About us</a></li>
+                            <li><a class="dropdown-item fw-regular" href="#">Tour Guide</a></li>
+                            <li><a class="dropdown-item fw-regular" href="#">Guide Details</a></li> 
+                              <li><a class="dropdown-item fw-regular" href="#">Our pricing</a></li> 
+                                <li><a class="dropdown-item fw-regular" href="#">Our FAQ</a></li> 
+                                    <li><a class="dropdown-item fw-regular" href="#">404 Error</a></li> 
+                        </ul>
+                    </li>
+                                <li class="nav-item dropdown fw-regular">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Pages
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-regular" href="#">Blog</a></li>
+                            <li><a class="dropdown-item fw-regular" href="#">Blog Grid</a></li>
+                            <li><a class="dropdown-item fw-regular" href="#">Blog Item</a></li> 
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+    <a class="nav-link fw-regular" href="contact-us.html">
+        Contact Us
+    </a>
+</li>
+                  </ul>
+             
+                
+                  <a href="#" class="magnifying-glass"><i class="fa-solid fa-magnifying-glass" style="color: rgb(19, 18, 18);"></i></a> 
+                     <div class=" d-none d-lg-block d-flex">
+                    <a href="#" class="cmn-btn d-inline-block"> <i class="fa-solid fa-arrow-right" ></i>Discover</a>
+                </div>
+            </div>
+
+        </nav>
+
+    </div>
+</header> 
+<main>
+
+    <!-- hero banner section  -->
+  <section class="hero-banner position-relative">
+    <div class="container"> 
+      <img src="img/plane.png" alt="plane" loading="lazy" class="hero-banner-img position-absolute"> 
+      <img src="img/shape-1.png" alt="shape" loading="lazy" class="hero-banner-img1 position-absolute">
+      
+      <div class="row">
+        <div class="col-lg-7 " >
+          <h1 class="cmn-gap" >
+            Explore the beautiful places around the world
+          </h1> 
+          <p class="fw-regular">Save up to 50% on the best attractions , tours and activites  </p>
+        </div> 
+        <div class="col-lg-5 banner position-relative">
+          <img src="img/01.jpg" alt="banner-1" loading="lazy" class="banner-img position-absolute d-block"> 
+          <img src="img/02.jpg" alt="banner-2" loading="lazy" class="banner-img1 position-absolute d-block"> 
+          <img src="img/03.jpg" alt="banner-3" loading="lazy" class="banner-img2 position-absolute d-block">
+        </div>
+      </div> 
+      <div class="side-banner-table d-flex position-absolute "> 
+        <div class="arrow-img d-flex cmn-gap1">
+               <i class="fa-solid fa-location-arrow " style="color: rgb(13, 17, 253);" ></i>  
+                       <select name="" id="" >  
+         
+          <option value="Destination" class="banner-table">Destination</option>
+        </select> 
+        </div>
+       <div class="arrow-img d-flex cmn-gap1">
+              <i class="fa-solid fa-chart-line" style="color: rgb(13, 17, 253);"></i>
+                       <select name="" id="" >  
+         
+          <option value="Activity " class="banner-table">Activity</option>
+        </select> 
+        </div>
+
+           <div class="arrow-img d-flex cmn-gap1">
+               <i class="fa-regular fa-calendar" style="color: rgb(13, 17, 253);" ></i>
+                       <select name="" id="" >  
+         
+          <option value="Destination" class="banner-table">Date From</option>
+        </select> 
+        </div>
+           <div class="arrow-img d-flex cmn-gap1">
+        <i class="fa-regular fa-user" style="color: rgb(13, 17, 253);"></i>
+                       <select name="" id="" >  
+         
+          <option value="Destination" class="banner-table">Your Guest</option>
+        </select> 
+        </div> 
+        <a href="#" class="cmn-btn1 d-inline-block px-auto py-auto mx-auto my-auto">Search</a>
+      </div>
+    </div>
+  </section>
+ 
+ <!-- destination -->
+  <section class="popular-destination cmn-gap2">
+    <div class="container">
+        <span class="cmn-p1 text-transform-uppercase ">
+            Popular destination
+        </span>
+  
+
+     
+        <h2 class="h2-title">our popular destination</h2>
+        <p > Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos exercitationem illum?</p>
+        <div class="arrow d-flex position-relative align-items-center justify-content-center"> 
+            <!-- button -->
+            <button class="circle" type="button"> 
+                <i class="fa-solid fa-arrow-down rotate" style="color: rgb(255, 255, 255);"></i>
+            </button>
+            <button class="circle" type="button">
+                  <i class="fa-solid fa-arrow-down rotate1" style="color: rgb(255, 255, 255);"></i>
+            </button>
+        </div> 
+ 
+        <!-- image slider  -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-6">
+                            <figure class="card">
+                              
+                                <img src="img/03-1.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">LOS ANGELES, USA</p>
+                                    <p class="card-sub-heading">12 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <figure class="card">
+                                <img src="img/04.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">PARIS, FRANCE</p>
+                                    <p class="card-sub-heading">15 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <figure class="card">
+                                <img src="img/05.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">LONDON, UK</p>
+                                    <p class="card-sub-heading">10 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <figure class="card">
+                                <img src="img/03-1.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">TOKYO, JAPAN</p>
+                                    <p class="card-sub-heading">18 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                    </div>
+                </div> 
+                <!-- slide 2 -->
+                 <div class="carousel-item ">
+                    <div class="row ">
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <figure class="card">
+                                <img src="img/03-1.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">LOS ANGELES, USA</p>
+                                    <p class="card-sub-heading">12 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <figure class="card">
+                                <img src="img/05.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">PARIS, FRANCE</p>
+                                    <p class="card-sub-heading">15 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <figure class="card">
+                                <img src="img/04.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">LONDON, UK</p>
+                                    <p class="card-sub-heading">10 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <figure class="card">
+                                <img src="img/03-1.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">TOKYO, JAPAN</p>
+                                    <p class="card-sub-heading">18 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Slide 3-->
+                <div class="carousel-item">
+                    <div class="row ">
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <figure class="card">
+                                <img src="img/04.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">ROME, ITALY</p>
+                                    <p class="card-sub-heading">9 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <figure class="card">
+                                <img src="img/03-1.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">DUBAI, UAE</p>
+                                    <p class="card-sub-heading">14 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <figure class="card">
+                                <img src="img/05.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">SYDNEY, AUSTRALIA</p>
+                                    <p class="card-sub-heading">11 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <figure class="card">
+                                <img src="img/05.jpg" alt="card-image" class="card-image">
+                                <div class="box">
+                                    <p class="card-heading">BALI, INDONESIA</p>
+                                    <p class="card-sub-heading">20 Listing</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+     
+        </div>
+  </section>
+<section class="company-slider cmn-gap3">
+    <div class="container">
+        <p class=" d-flex justify-content-center">Trips awarded fetures by </p>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">  
+                <!-- frist slide -->
+                 <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-1.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                           <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-2.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                           <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-6.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                          <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-5.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div>
+                </div>
+                 </div>
+                 <!-- second-slide -->
+                           <div class="carousel-item ">
+                    <div class="row">
+                        <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-1.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                           <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-2.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                           <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-6.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                          <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-5.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div>
+                </div>
+                 </div>
+                 <!-- third-slide -->
+                           <div class="carousel-item ">
+                    <div class="row">
+                        <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-1.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                           <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-2.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                           <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-6.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div> 
+                          <div class="col-lg-3  col-md-6 col-12">
+                            <figure>
+                                <img src="img/09/brand-5.png" alt="" loading="lazy" class="company-img">
+                            </figure>
+                        </div>
+                </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about-us -->
+<section class="about-us cmn-gap2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 ">
+             <div class="box-about-us position-relative w-100 h-auto">
+<figure class="about-img">
+                    <img src="img/09/01.jpg" alt="image1" loading="lazy" class="about-us-img position-absolute d-block">
+                
+               
+                    <img src="img/09/02.jpg" alt="image1" loading="lazy" class="about-us-img1 position-absolute d-block">
+               </figure>
+             </div> 
+             </div>
+                
+             <div class="col-lg-6">
+                <span class="about-us-head-sub"> ABOUT TOURO</span>
+                <h3 class="h2-title">
+                    our stories have experience adventure
+                </h3> 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias libero expedita assumenda impedit magni, eius nisi obcaecati aliquam! Non reiciendis molestiae reprehenderit eaque nostrum vitae. Aliquid, ipsa nostrum! Explicabo consequuntur aut sed inventore eum.
+                </p>
+                <div class="d-flex circle-card-gap">
+                    <div class="col-lg-3">
+                         <div class="right-circle-box d-flex">
+                    <div class="right-circle-content d-flex">
+                        <div class="right-circle">
+                        <i class="fa-solid fa-check" ></i>
+                        </div> 
+                        <p class="right-circle-text">
+                            Easy Booking
+                        </p>
+                    </div>
+                </div> 
+                <div class="right-circle-box d-flex">
+                    <div class="right-circle-content d-flex">
+                        <div class="right-circle">
+                         <i class="fa-solid fa-check" ></i>
+                        </div> 
+                        <p class="right-circle-text">
+                            24/7 Support
+                        </p>
+                    </div>
+                </div>
+                <div class="right-circle-box d-flex">
+                    <div class="right-circle-content d-flex">
+                        <div class="right-circle">
+                         <i class="fa-solid fa-check" ></i>
+                        </div> 
+                        <p class="right-circle-text">
+                            Adventure Activities
+                        </p>
+                    </div>
+                </div>
+                    </div> 
+                    <div class="col-lg-3">
+                        <div class="right-circle-box d-flex">
+                    <div class="right-circle-content d-flex">
+                        <div class="right-circle">
+                         <i class="fa-solid fa-check" ></i>
+                        </div> 
+                        <p class="right-circle-text">
+                            Weather Updates
+                        </p>
+                    </div>
+                </div>
+                <div class="right-circle-box d-flex">
+                    <div class="right-circle-content d-flex">
+                        <div class="right-circle">
+                         <i class="fa-solid fa-check" ></i>
+                        </div> 
+                        <p class="right-circle-text">
+                            Instant Corporation
+                        </p>
+                    </div>
+                </div>
+                <div class="right-circle-box d-flex">
+                    <div class="right-circle-content d-flex">
+                        <div class="right-circle">
+                         <i class="fa-solid fa-check" ></i>
+                        </div> 
+                        <p class="right-circle-text">
+                            Itinary Planner
+                        </p>
+                    </div>
+                </div>
+                    </div>
+                </div>
+               
+              <div class=" d-none d-lg-block d-flex">
+                    <a href="#" class="cmn-btn d-inline-block"> <i class="fa-solid fa-arrow-right" ></i>About Us</a>
+                </div>
+             </div>
+        </div>
+    </div>
+</section>
+
+
+</main> 
+<footer class="footer cmn-gap4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+               <a href="index.html" class="logo d-block"> <img src="img/black-logo.png" alt=""></a>
+                <p class="cmn-gap5"> we offered carefully curated destination and the tours that capture the true essence</p>  
+                <!-- frist wrap -->
+                <div class="footer-wrap cmn-gap5">
+             <div class="d-flex">
+                   <div class="footer-circle">
+                    <i class="fa-solid fa-phone" style="color: rgb(255, 255, 255);"></i>
+                </div> 
+                <div class="footer-circle-content">
+                    <p>
+                        CALL NOW
+                    </p> 
+                    <p>
+                        +88(09)53 33 09
+                    </p>
+                
+             </div>
+            </div> 
+            <!-- second wrap --> 
+                 
+             <div class="d-flex">
+                   <div class="footer-circle">
+                    <i class="fa-solid fa-at" style="color: rgb(255, 255, 255);"></i>
+                </div> 
+                <div class="footer-circle-content">
+                    <p>
+                        MAIL US
+                    </p> 
+                    <p>
+                        hellotramex@gmail.com
+                    </p>
+             </div>
+            </div>
+             </div>
+             <div class="wrap cmn-gap5">
+                <img src="img/09/gallery-1-1.jpg" alt="" class="footer-img">
+                <img src="img/09/gallery-2-1.jpg" alt="" class="footer-img">
+                <img src="img/09/gallery-3-1.jpg" alt="" class="footer-img">
+                <img src="img/09/gallery-4-1.jpg" alt="" class="footer-img">
+             </div>
+             </div>
+            <div class="col-lg-2 cmn-gap5">
+                <p class="footer-sub-heading" >Useful links</p> 
+                <ul class="footer-head">
+                    <li class="footer-link"><a href="" > all destination</a></li>
+                    <li class="footer-link"><a href="" >24 X 7 support</a></li>
+                    <li class="footer-link"><a href="" >our blog</a></li>
+                    <li class="footer-link"><a href="" >tour places</a></li>
+                    <li class="footer-link"><a href="">reviews</a></li>
+                </ul>
+            </div> 
+            <div class="col-lg-2 cmn-gap5">
+                <p class="footer-sub-heading" >About Travil</p> 
+                <ul class="footer-head">
+                    <li class="footer-link"><a href="" >about us</a></li>
+                    <li class="footer-link"><a href="" >legal notice</a></li>
+                    <li class="footer-link"><a href="" >terms and condition</a></li>
+                    <li class="footer-link"><a href="" >contact us</a></li>
+                    <li class="footer-link"><a href="">apple store</a></li>
+                </ul>
+            </div> 
+               <div class="col-lg-2 cmn-gap5">
+                <p class="footer-sub-heading" >Support Center</p> 
+                <ul class="footer-head">
+                    <li class="footer-link"><a href="" >Help Center</a></li>
+                    <li class="footer-link"><a href="" >24/7 Support</a></li>
+                    <li class="footer-link"><a href="" >Forum Support</a></li>
+                    <li class="footer-link"><a href="" >Live chat </a></li>
+                    <li class="footer-link"><a href="">How working</a></li>
+                </ul>
+            </div> 
+        </div>
+        <div class="footer-sub-box">
+            <div class="row justify-content-space-between">
+                <div class="col-lg-8">
+© 2025 TouroLLC All rights reserved
+                </div> 
+                <div class="col-lg-4">
+                     <div class="footer-circle1">
+    <div class="circle1">
+      <i class="fa-brands fa-x-twitter"></i>
+    </div> 
+    <div class="circle1">
+<i class="fa-brands fa-instagram" ></i>
+    </div> 
+    <div class="circle1">
+<i class="fa-brands fa-facebook-f"></i>
+    </div> 
+    <div class="circle1">
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+</footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script> 
+    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="index.js"></script>
+</body>
+</html>
